@@ -50,7 +50,7 @@ app.layout = html.Div([
     html.Div([
         #html.Img(src='eyesal.png', style={'width': '80%', 'height': 'auto', 'padding-top': '20px', 'padding-bottom': '20px' '<br>'}),  # Fixing image size
         html.Div([
-            html.Img(src='assets/eyesal.png', style={'width': '80%', 'height': 'auto', 'max-width': '500px', 'display': 'block', 'padding-top': '500px', 'margin': '0 auto'}),  # Fixing image size
+            html.Img(src='assets/eyesimage.png', style={'width': '80%', 'height': 'auto', 'max-width': '500px', 'display': 'block', 'padding-top': '500px', 'margin': '0 auto'}),  # Fixing image size
                     dcc.Graph(
                         id='squares-graph',
                         figure=fig,
